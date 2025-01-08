@@ -8,6 +8,42 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<style>
+		form {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        button {
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            border: 1 px solid black;
+        }
+
+	</style>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" placeholder="Name"><br><br>
+		
+		<label for="phone">Pohone Number:</label>
+		<input type="text" id="phone" name="phone" placeholder="Phone Number"><br><br>
+
+		<label for="address">Address:</label>
+		<input type="text" id="address" name="address" placeholder="Address"><br><br>
+
+		<label for="checkbox">Have you ever lived with a Dog before?</label>
+		<input type="checkbox" id="checkbox" name="checkbox"><br><br>
+
+		<label for="multiSelect">Please select your preferred breeds</label>
+		<select>
+			<option></option>
+			<option>german shepherd</option>
+			<option>golden retriever</option>
+			<option>lebra dog</option>
+		</select><br><br>
+
+		<button type="submit">Submit</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
